@@ -13,6 +13,6 @@ def line(arr)
 end
 
 def take_a_number(arr, str)
-    arr.push(str)
+    arr << str
     puts "Welcome,#{str}. You are number #{arr.length} in line"
 end
