@@ -11,3 +11,7 @@ def line(arr)
       puts str
     end
 end
+
+def take_a_number(arr, str)
+    arr.push(str)
+end
