@@ -19,6 +19,6 @@ end
 
 def now_serving(arr)
     if arr.empty?
-      puts"
-  
+      puts"The line is currently empty."
+    end
 end
