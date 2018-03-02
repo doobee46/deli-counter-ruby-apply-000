@@ -3,5 +3,5 @@
 katz_deli =[]
 
 def line(array)
-  The line is currently empty.
+   
 end
