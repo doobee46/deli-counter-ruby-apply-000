@@ -12,7 +12,3 @@ def line(arr)
     end
 end
 
-def take_a_number(current_line, name)
-  current_line << name
-  puts "Welcome, #{name}. You are number #{current_line.length} in line."
-end
