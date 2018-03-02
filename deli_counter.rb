@@ -16,3 +16,9 @@ def take_a_number(arr, str)
   arr << str
   puts "Welcome, #{str}. You are number #{arr.length} in line."
 end
+
+def now_serving(arr)
+    if arr.empty?
+      puts"
+  
+end
