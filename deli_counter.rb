@@ -1,11 +1,13 @@
 # Write your code here.
 
-def line(array)
-   if array.empty?
+def line(arr)
+    if arr.empty?
      puts "The line is currently empty."
-   else
-     array.each do |i|
-       puts "The line is currently: #{array.index(i)} #{i}"
-     end
-   end
+    else
+     str = "The line is currently:"
+      arr.each_with_index do |name, idx|
+        str += " #{idx + 1}. #{name}"
+      end
+      puts str
+    end
 end
